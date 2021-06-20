@@ -1,6 +1,6 @@
 # TakeHomeTest
 ## Part I
-see Part I responses at https://gist.github.com/michael-huang-va
+See Part I responses at https://gist.github.com/michael-huang-va
 
 ## Part II
 
@@ -40,10 +40,10 @@ Step 1: Login to github to create a new repository under apihuang organization. 
 > enforce_admins.enabled:true
 > 
 > required_pull_request_reviews.require_code_owner_reviews:true
->
->
->
->
+
+
+
+
 > An issue has been created for a newly created repository.
 >
 > Issue title: An Issue for Newly Created Repository
