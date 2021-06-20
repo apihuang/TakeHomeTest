@@ -1,16 +1,16 @@
 # TakeHomeTest
-##Part I
-see Part I responses
+## Part I
+see Part I responses at https://gist.github.com/michael-huang-va
 
-##Part II
+## Part II
 
-###githubAPIChallenge.js 
+### githubAPIChallenge.js 
 A lightweight web service that listens to github create repository events,
 then call github API to protect the defaul main branch of the newly created
 repository, and then make another github API call to create an issue and @mention
 the sender self.
 
-####Installation
+#### Installation
 Step 1: Type the follow command to install node
 
 Step 2: Type the following two command to install WebSocket and Axios
@@ -18,7 +18,7 @@ Step 2: Type the following two command to install WebSocket and Axios
   node install axios
 Step 3: Copy githubAPIChallenge.js from git to your current directory
 
-####Run
+#### Run
 Step 1: From your current directory (node is available and githubAPIChallenge.js is in the current directory), type the follow command to run
   node githubAPIChallenge.js
 
