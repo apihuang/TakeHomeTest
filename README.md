@@ -30,7 +30,7 @@ Then, you will see the following message:
 Step 1: Login to github to create a new repository under apihuang organization. You will then see messages simialr to the following:
 
 > Received github event: repo24 repository has just been created
-
+>
 > Main branch of apihuang/repo24 repository has been protected according to team policy.
 > 
 > Protection URL: https://api.github.com/repos/apihuang/repo24/branches/main/protection
@@ -42,8 +42,9 @@ Step 1: Login to github to create a new repository under apihuang organization. 
 > required_pull_request_reviews.require_code_owner_reviews:true
 
 
-> An issue has been created for a newly created repository.
 
+> An issue has been created for a newly created repository.
+>
 > Issue title: An Issue for Newly Created Repository
- 
+> 
 > Issue URL: https://api.github.com/repos/apihuang/repo24/issues/1
