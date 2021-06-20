@@ -20,7 +20,11 @@ Step 2: Type the following two commands to install WebSocket and Axios
 Step 3: Copy githubAPIChallenge.js from git to your current directory
 
 #### Run
-Step 1: From your current directory (make sure node is available and githubAPIChallenge.js is in the current directory), type the follow command to run
+Step 1: From your current directory (make sure node is available and githubAPIChallenge.js is in the current directory), type the follow command to set your peronsal access token as an environment variable:
+
+> export TOKEN=personal token  -- contact me at yuanlinh@yahoo.com for the token
+
+Then, type the following command to run:
 >  node githubAPIChallenge.js
 
 Then, you will see the following message:
