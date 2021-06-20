@@ -15,6 +15,7 @@ Step 1: Install node on your localhost
 
 Step 2: Type the following two commands to install WebSocket and Axios
 >  npm install ws
+>  
 >  npm install axios
 
 Step 3: Copy githubAPIChallenge.js from git to your current directory
