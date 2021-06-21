@@ -28,7 +28,7 @@ ws.on('close', function close() {
 });
 
 /*
- * 2. Web Service that listens to github create repository event
+ * 2. Implemetation to react to github event
 */
 ws.on('message', function incoming(data) {
     var msg = JSON.parse(data);
@@ -61,10 +61,12 @@ ws.on('message', function incoming(data) {
         console.log("\nReceived github event: " + repo + " repository has just been created");
 
         //2.2 call rest API to pretect the main branch of a newly created repo
+        var token = process.env.TOKEN;
+    //    console.log(token);
         const configHeaders = {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'token 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'
+                'Authorization': 'token ' + token
             }
         };
         let payload = {
@@ -131,6 +133,3 @@ ws.on('message', function incoming(data) {
 
     }
 })
-
-
-
