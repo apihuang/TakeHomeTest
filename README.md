@@ -23,8 +23,9 @@ Step 3: Copy githubAPIChallenge.js from git to your current directory
 #### Run
 Step 1: From your current directory (make sure node is available and githubAPIChallenge.js is in the current directory), type the follow command to set your peronsal access token as an environment variable:
 
-> export TOKEN=personal token  -- contact me at yuanlinh@yahoo.com for the token
-
+> setx TOKEN personal access token (windows)  -- contact me at yuanlinh@yahoo.com for the token
+> export TOKEN=personal access token  (unix)
+> 
 Then, type the following command to run:
 >  node githubAPIChallenge.js
 
