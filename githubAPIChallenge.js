@@ -27,6 +27,7 @@ ws.on('close', function close() {
     console.log('disconnected');
 });
 
+
 /*
  * 2. Implemetation to react to github event
 */
